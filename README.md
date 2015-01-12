@@ -1,0 +1,1 @@
+opiniated router for koa
