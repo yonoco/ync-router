@@ -1,11 +1,17 @@
 {
-  "name": "ync-router",
-  "version": "1.0.0",
-  "description": "opiniated router for koa",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Tamás Fitos",
-  "license": "MIT"
+    "name": "ync-router",
+    "version": "1.0.0",
+    "description": "opiniated router for koa",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+        "callsite": "1.0.0"
+    },
+    "devDependencies": {
+        "koa": "0.14.0"
+    },
+    "author": "Tamás Fitos",
+    "license": "MIT"
 }
