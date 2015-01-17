@@ -8,5 +8,4 @@ GET    /hello/:param1  ctrl.hello(param1)
 POST   /world/:a/:b    ctrl.world(a,b)
 GET    /               ctrl.index()
 ```
-
 2. ctrl definition strictly checked on startup: the signatures (even the variable names) must be identical to the ones which are defined in the route.ync file
