@@ -1,3 +1,3 @@
 GET    /hello/:param1            ctrl.hello(param1)
-GET    /world/:param2/:param3    ctrl.world(param2,param3)
+GET    /world/:param3/:param2    ctrl.world(param2,param3)
 POST   /:param4/:param5/asd      ctrl.index(param5,param4)
