@@ -6,6 +6,7 @@ module.exports = {
 
     hello: function*() {
         console.log("hello called");
+        console.log(this);
     },
 
     world: function*() {
